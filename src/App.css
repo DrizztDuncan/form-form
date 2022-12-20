@@ -1,0 +1,18 @@
+@tailwind base;
+@layer base {
+  h1 {
+    @apply text-[32px] tracking-[.2em] font-bold leading-6;
+  }
+  h2 {
+    @apply text-[28px];
+  }
+  h3 {
+    @apply text-lg tracking-[.2em] font-bold leading-6;
+  }
+
+  h4 {
+    @apply text-[16px];
+  }
+}
+@tailwind components;
+@tailwind utilities;
