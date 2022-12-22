@@ -1,7 +1,7 @@
 export default function Landing() {
   return (
     <main className="bg-theme-blue flex flex-col justify-center items-center">
-      <div className=" sm:w-[328px] mt-[60px]  m-auto">
+      <div className=" w-[328px] mt-[60px]  m-auto">
         <h1 className=" text-white leading-10	">There is no one</h1>
         <h2 className="text-white text-center font-bold leading-10 tracking-[.2em]">
           who loves pain
@@ -13,20 +13,34 @@ export default function Landing() {
       </button>
 
       {/* wave */}
-      <img className="absolute top-40" src="./curve-1.svg" />
-      <img className="absolute top-[18rem]" src="./curve-2.svg" />
-      <img className="absolute top-[43rem]" src="./curve-3.svg" />
+      <img className="absolute top-40 overflow-hidden " src="./curve-1.svg" />
+      <img
+        className="absolute top-[18rem] overflow-hidden "
+        src="./curve-2.svg"
+      />
+      <img
+        className="absolute top-[43rem] md:top-[32rem] overflow-hidden "
+        src="./curve-3.svg"
+      />
 
       <article
         className="
-      flex flex-col items-center bg-sec-blue sm:w-[366px] md:w-[720px] sm:h-[489px] md:h-[350px] 
-      mt-[32px] mb-12 text-theme-blue rounded-form border-primary border-2 z-10 relative
-      "
+      flex flex-col items-center bg-sec-blue w-4/5 md:w-2/3 lg:w-1/2 h-full
+      mt-[32px] mb-12 text-theme-blue rounded-form border-primary border-2 z-10 relative"
       >
         {/* ship */}
         <img className="absolute -top-6 -right-4" src="./ship-1.svg" />
-        <img className="absolute -top-4 -right-4" src="./paddle.svg" alt="" />
+        <img
+          className="absolute -top-4 -right-4 animate-paddle"
+          src="./paddle.svg"
+          alt=""
+        />
         <img className="absolute -bottom-10 left-2" src="./ship-2.svg" />
+        <img
+          src="./firework.svg"
+          alt=""
+          className="absolute -bottom-10 -left-4 animate-firework "
+        />
 
         <div className="flex mt-[32.5px]">
           <img src="./cactus.svg" />
@@ -34,8 +48,8 @@ export default function Landing() {
           <img src="./cactus.svg" />
         </div>
         <ul
-          className=" list-decimal sm:w-[300px] md:w-[688px] list-outside mt-[24.5px] 
-        mx-4 text-base font-normal"
+          className=" list-decimal w-4/5 md:w-5/6 list-outside mt-[24.5px] 
+          mx-8 text-base font-normal "
         >
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
         </ul>
@@ -46,8 +60,8 @@ export default function Landing() {
           <img src="./cactus.svg" />
         </div>
         <ul
-          className="mt-[24.5px]  sm:w-[300px] md:w-[688px] text-base font-normal 
-        box-border	list-decimal list-outside"
+          className=" list-decimal w-4/5 md:w-5/6 list-outside mt-[24.5px] 
+          mx-8 pb-10 text-base font-normal "
         >
           <li>
             Quisque sodales leo&nbsp;
@@ -71,7 +85,7 @@ export default function Landing() {
       </article>
 
       {/* wave anime */}
-      <div className=" overflow-hidden  w-screen">
+      <div className=" overflow-hidden  w-screen mt-5">
         <div className="w-auto flex  animate-wave">
           <img className=" max-w-none " src="./wave.svg" alt="" />
           <img className=" max-w-none " src="./wave.svg" alt="" />

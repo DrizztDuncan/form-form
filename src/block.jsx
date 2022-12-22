@@ -1,7 +1,7 @@
 export default function Block() {
   return (
-    <section className="bg-secondary">
-      <div className=" sm:w-3/4 grid sm:grid-cols-2 md:grid-cols-3 m-auto">
+    <section className="bg-secondary bg-[url('./random-dot.png')] py-20">
+      <div className=" w-11/12 sm:w-2/3 lg:w-1/2 grid grid-cols-2 md:grid-cols-3 pt-8 gap-8 m-auto">
         {/* block a */}
         <div
           className=" 
@@ -49,7 +49,7 @@ export default function Block() {
         <div
           className=" 
         w-[178px] h-[112px] bg-white m-auto rounded-form flex justify-center items-center
-         flex-col relative mt-10
+         flex-col relative
         "
         >
           <img src="./medal-green.svg" alt="" className="absolute -top-8" />
@@ -71,7 +71,7 @@ export default function Block() {
         <div
           className=" 
         w-[178px] h-[112px] bg-white m-auto rounded-form flex justify-center items-center
-         flex-col relative mt-10
+         flex-col relative
         "
         >
           <img src="./medal-blue.svg" alt="" className="absolute -top-8" />
@@ -91,7 +91,7 @@ export default function Block() {
         <div
           className=" 
         w-[178px] h-[112px] bg-white m-auto rounded-form flex justify-center items-center
-         flex-col relative mt-10
+         flex-col relative
         "
         >
           <img src="./medal-blue.svg" alt="" className="absolute -top-8" />
@@ -111,7 +111,7 @@ export default function Block() {
         <div
           className=" 
         w-[178px] h-[112px] bg-white m-auto rounded-form flex justify-center items-center
-         flex-col relative mt-10
+         flex-col relative
         "
         >
           <img src="./medal-blue.svg" alt="" className="absolute -top-8" />
@@ -133,7 +133,7 @@ export default function Block() {
         <div
           className=" 
         w-[178px] h-[112px] bg-white m-auto rounded-form flex justify-center items-center
-         flex-col relative mt-10
+         flex-col relative
         "
         >
           <img src="./medal-blue.svg" alt="" className="absolute -top-8" />
@@ -155,7 +155,7 @@ export default function Block() {
         <div
           className=" 
         w-[178px] h-[112px] bg-white m-auto rounded-form flex justify-center items-center
-         flex-col relative mt-10
+         flex-col relative
         "
         >
           <img src="./medal-blue.svg" alt="" className="absolute -top-8" />
