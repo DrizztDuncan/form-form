@@ -1,7 +1,10 @@
 import { useForm } from "react-hook-form";
 import { ErrorMessage } from "@hookform/error-message";
-// import { yupResolver } from "@hookform/resolvers/yup";
-// import * as yup from "yup";
+import * as React from "react";
+import InputLabel from "@mui/material/InputLabel";
+import MenuItem from "@mui/material/MenuItem";
+import FormControl from "@mui/material/FormControl";
+// import Select, { SelectChangeEvent } from "@mui/material/Select";
 
 export default function Form() {
   const {
@@ -42,10 +45,31 @@ export default function Form() {
         />
         {/* form */}
 
-        <label className=" mt-[40px] mb-2 text-left w-4/5 md:w-11/12 ">
+        {/* <label className=" mt-[40px] mb-2 text-left w-4/5 md:w-11/12 ">
           store <span className="text-primary">*</span>
         </label>
-        <input className=" w-4/5 md:w-11/12 h-14 rounded-form border border-theme-blue"></input>
+        <input className=" w-4/5 md:w-11/12 h-14 rounded-form border border-theme-blue"></input> */}
+        <FormControl sx={{ m: 1, minWidth: 80 }}>
+          <InputLabel className=" mt-[40px] mb-2 text-left w-4/5 md:w-11/12 ">
+            Age<span className="text-primary">*</span>
+          </InputLabel>
+          <Select
+            labelId="demo-simple-select-autowidth-label"
+            id="demo-simple-select-autowidth"
+            value={age}
+            onChange={handleChange}
+            autoWidth
+            label="Age"
+            className=" w-4/5 md:w-11/12 h-14 rounded-form border border-theme-blue"
+          >
+            <MenuItem value="">
+              <em>None</em>
+            </MenuItem>
+            <MenuItem value={10}>Twenty</MenuItem>
+            <MenuItem value={21}>Twenty one</MenuItem>
+            <MenuItem value={22}>Twenty one and a half</MenuItem>
+          </Select>
+        </FormControl>
 
         <label className=" mt-5 mb-2 text-left w-4/5 md:w-11/12 ">
           name <span className="text-primary">*</span>
