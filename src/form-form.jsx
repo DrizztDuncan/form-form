@@ -54,7 +54,7 @@ export default function Form() {
         <label className=" mt-[40px] mb-2 text-left w-4/5 md:w-11/12 ">
           store <span className="text-primary">*</span>
         </label>
-        <input className=" w-4/5 md:w-11/12 h-14 rounded-form border border-theme-blue"></input>
+        <input className=" w-4/5 md:w-11/12 h-14 rounded-form border border-theme-blue px-4"></input>
         {/* <FormControl sx={{ m: 1, minWidth: 80 }}>
           <InputLabel className=" mt-[40px] mb-2 text-left w-4/5 md:w-11/12 ">
             Age<span className="text-primary">*</span>
@@ -89,7 +89,7 @@ export default function Form() {
           })}
           placeholder="Name"
           type="text"
-          className=" w-4/5 md:w-11/12 h-14 rounded-form border border-theme-blue  px-4 "
+          className=" w-4/5 md:w-11/12 h-14 rounded-form border border-theme-blue  px-4"
         ></input>
 
         <label className=" mt-5 mb-2 text-left w-4/5 md:w-11/12 ">
