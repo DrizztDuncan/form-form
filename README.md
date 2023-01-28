@@ -3,9 +3,9 @@
 
 Responsive design page with Tailwind CSS
 ## Demo
-**CSS animation
+**CSS animation**
 ![boat-animation](https://user-images.githubusercontent.com/39251171/215264394-860991cf-817a-4714-a643-afaaf298d64b.gif)
-**Responsive grid system with Tailwind CSS
+**Responsive grid system with Tailwind CSS**
 ![rwd](https://user-images.githubusercontent.com/39251171/215264395-007d9a6b-838f-4645-af73-5cb9be92014b.gif)
 ## Features
 
